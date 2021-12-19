@@ -1,0 +1,35 @@
+https://testautomationu.applitools.com/python-tutorial/chapter9.html
+tkhoan: ltweb16ck3
+
+Inheritance
+Kế thừa là khi chúng ta sử dụng các thuộc tính và phương thức từ lớp cha và làm cho 
+các thuộc tính và phương thức đó có sẵn cho lớp con
+
+===========================================================================================
+
+Multiple Inheritance
+Đa kế thừa là khi một lớp kế thừa từ nhiều lớp và có thể sử dụng các thuộc tính 
+và phương thức từ cả hai lớp.
+Có những ưu và nhược điểm khi sử dụng đa kế thừa.
+
+Ưu điểm bao gồm khả năng tái sử dụng một lượng nhỏ mã trong nhiều lớp và kết hợp.
+
+Nhược điểm bao gồm thứ tự của các vấn đề thừa kế. Việc kế thừa từ nhiều lớp có thể 
+trở nên khá phức tạp tùy thuộc vào số lượng lớp, tên của các phương thức lớp và 
+các yếu tố khác, bao gồm các thuộc tính chung được chia sẻ giữa nhiều lớp cha.
+
+Có thể phải bảo trì nhiều hơn khi cấu trúc lại mã đang sử dụng đa kế thừa.
+
+Có 2 cách để thực hiện đa kế thừa trong Python:
+- Cách thứ nhất không bằng Pythonic và cần bảo dưỡng nhiều hơn một chút. Tuy nhiên, 
+sẽ dễ dàng hơn để xem chính xác những gì đang xảy ra.
+- Cách thứ hai là tiếp tục sử dụng phương thức super như chúng ta đã làm với một thừa kế 
+duy nhất. Tuy nhiên, phương pháp này có thể phức tạp và khá khó hiểu
+
+===========================================================================================
+
+Da hinh - ghi de phuong thuc (Polymorphism — Method Overriding)
+Tính đa hình xảy ra khi chúng ta muốn cho phép lớp con có một phương thức có cùng tên và 
+cách triển khai tương tự như lớp cha và chúng ta muốn phương thức đó bạn ghi đè phương thức
+ của lớp cha.
+
